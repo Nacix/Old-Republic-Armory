@@ -1,0 +1,17 @@
+name = "Old Republic Armory"
+prefix = "tor"
+mainprefix = "x"
+
+[version]
+git_hash = 0
+
+[files]
+include = [
+    "*.dll",
+    "*.so",
+    "*.paa",
+    "mod.cpp",
+    "LICENSE",
+    "modder_readme.txt",
+    "README.md",
+]
