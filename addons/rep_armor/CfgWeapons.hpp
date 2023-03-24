@@ -208,8 +208,8 @@ class CfgWeapons
 		displayName = "[TOR] Republic Armor (Havoc)";
 		hiddenSelectionsTextures[]=
 		{
-			QPATHTOF(data\rep_trooper\uniforms\havoc_trooper_chest_co.paa),
-			QPATHTOF(data\rep_trooper\uniforms\havoc_trooper_legs_co.paa)
+			QPATHTOF(data\rep_trooper\uniforms\havoc_chest_co.paa),
+			QPATHTOF(data\rep_trooper\uniforms\havoc_legs_co.paa)
 		};
 	};
 	class TOR_RT_Vest_Alderaan: TOR_RT_Vest
@@ -217,8 +217,26 @@ class CfgWeapons
 		displayName = "[TOR] Republic Armor (Alderaan)";
 		hiddenSelectionsTextures[]=
 		{
-			QPATHTOF(data\rep_trooper\uniforms\alderaan_trooper_chest_co.paa),
-			QPATHTOF(data\rep_trooper\uniforms\alderaan_trooper_legs_co.paa)
+			QPATHTOF(data\rep_trooper\uniforms\alderaan_chest_co.paa),
+			QPATHTOF(data\rep_trooper\uniforms\alderaan_legs_co.paa)
+		};
+	};
+	class TOR_RT_Vest_Ranger: TOR_RT_Vest
+	{
+		displayName = "[TOR] Republic Armor (Ranger)";
+		hiddenSelectionsTextures[]=
+		{
+			QPATHTOF(data\rep_trooper\uniforms\ranger_chest_co.paa),
+			QPATHTOF(data\rep_trooper\uniforms\ranger_legs_co.paa)
+		};
+	};
+	class TOR_RT_Vest_Shadow: TOR_RT_Vest
+	{
+		displayName = "[TOR] Republic Armor (Shadow)";
+		hiddenSelectionsTextures[]=
+		{
+			QPATHTOF(data\rep_trooper\uniforms\shadow_chest_co.paa),
+			QPATHTOF(data\rep_trooper\uniforms\shadow_legs_co.paa)
 		};
 	};
 };
