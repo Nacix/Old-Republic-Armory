@@ -7,7 +7,7 @@ class CfgPatches
         name = COMPONENT_NAME;
 		requiredVersion = REQUIRED_VERSION;
         author = ECSTRING(common,TORTeam);
-		authors[] = {"Moose, Stim, Anorexican"};
+		authors[] = ECSTRING(common,Authors);
 		url = ECSTRING(main,URL);
         requiredAddons[]=
         {

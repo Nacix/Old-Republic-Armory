@@ -2,7 +2,10 @@
 <Project name="Old Republic Project">
     <Package name="Common">
         <Key ID="STR_TOR_Common_TORTeam">
-            <English>Moose, Stim, Anorexican</English>
+            <English>Ricochet Studios</English>
+        </Key>
+        <Key ID="STR_TOR_Common_Authors">
+            <English>Moose, Stim, &amp; Anorexican</English>
         </Key>
     </Package>
 </Project>

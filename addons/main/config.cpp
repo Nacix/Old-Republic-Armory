@@ -9,8 +9,8 @@ class CfgPatches
         units[] = {};
         weapons[] = {};
         requiredAddons[] = {"cba_main"};
-		author = CSTRING(TORTeam);
-		authors[] = {"Moose, Stim, Anorexican"};
+		author = ECSTRING(common,TORTeam);
+		authors[] = ECSTRING(common,Authors);
 		url = CSTRING(URL);
     };
 };
