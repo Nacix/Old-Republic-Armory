@@ -99,11 +99,16 @@ class CfgWeapons
 		author = "Stim & Moose";
 		displayname = "[TOR] Republic Visor";
 		picture = QPATHTOEF(common,data\ui\tor_ico_republic.paa);
-		model= QPATHTOF(data\rep_trooper\accessories\base\rep_visor.p3d);
+		model= QPATHTOF(data\rep_trooper\accessories\visor\base\rep_visor.p3d);
 		scope = 2;
-
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {QPATHTOF(data\rep_trooper\accessories\base\rep_visor_co.paa)};
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			QPATHTOF(data\rep_trooper\accessories\visor\base\rep_visor_co.paa)
+		};
 
 		visionMode[]= 
 		{
@@ -116,21 +121,38 @@ class CfgWeapons
 		class ItemInfo
 		{
 			type = 616;
-			uniformModel = QPATHTOF(data\rep_trooper\accessories\base\rep_visor.p3d);
-			modelOff = QPATHTOF(data\rep_trooper\accessories\base\rep_visor.p3d);
 			mass = 20;
-			hiddenSelections[] = {"camo"};
+			uniformModel = QPATHTOF(data\rep_trooper\accessories\visor\base\rep_visor.p3d);
+			modelOff = QPATHTOF(data\rep_trooper\accessories\visor\base\rep_visor.p3d);
+			hiddenSelections[]=
+			{
+				"camo"
+			};
+		};
+	};
+	class TOR_RT_Visor_Alderaan: TOR_RT_Visor
+	{
+		displayname = "[TOR] Republic Visor (Alderaan)";
+		hiddenSelectionsTextures[]=
+		{
+			QPATHTOF(data\rep_trooper\accessories\visor\alderaan_visor_co.paa)
+		};
+	};
+	class TOR_RT_Visor_SpecOp: TOR_RT_Visor
+	{
+		displayname = "[TOR] Republic Visor (Special Forces)";
+		hiddenSelectionsTextures[]=
+		{
+			QPATHTOF(data\rep_trooper\accessories\visor\specop_visor_co.paa)
 		};
 	};
 	class TOR_RT_Visor_Havoc: TOR_RT_Visor
 	{
 		displayname = "[TOR] Republic Visor (Havoc)";
-		hiddenSelectionsTextures[] = {QPATHTOF(data\rep_trooper\accessories\havoc_visor_co.paa)};
-	};
-	class TOR_RT_Visor_Alderaan: TOR_RT_Visor
-	{
-		displayname = "[TOR] Republic Visor (Alderaan)";
-		hiddenSelectionsTextures[] = {QPATHTOF(data\rep_trooper\accessories\alderaan_visor_co.paa)};
+		hiddenSelectionsTextures[]=
+		{
+			QPATHTOF(data\rep_trooper\accessories\visor\havoc_visor_co.paa)
+		};
 	};
 
 	class TOR_RT_Vest: V_PlateCarrier1_rgr

@@ -34,9 +34,7 @@ class CfgPatches
             "TOR_RT_Visor",
             "TOR_RT_Visor_Alderaan",
             "TOR_RT_Visor_Havoc",
-            "TOR_RT_Vest",
-            "TOR_RT_Vest_Alderaan",
-            "TOR_RT_Vest_Havoc"
+            "TOR_RT_Visor_SpecOp"
         };
         units[] = {};
     };
