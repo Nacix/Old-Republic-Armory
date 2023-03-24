@@ -24,6 +24,8 @@ class CfgPatches
             "TOR_RT_Helmet_Alderaan_NCO",
             "TOR_RT_Helmet_Havoc",
             "TOR_RT_Helmet_Havoc_NCO",
+            "TOR_RT_Helmet_Ranger",
+            "TOR_RT_Helmet_Shadow",
             "TOR_RT_Vest",
             "TOR_RT_Vest_Alderaan",
             "TOR_RT_Vest_Havoc",

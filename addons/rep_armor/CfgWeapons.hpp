@@ -45,12 +45,28 @@ class CfgWeapons
 			};
 		};
 	};
+	class TOR_RT_Helmet_Alderaan: TOR_RT_Helmet
+	{
+		displayName = "[TOR] Republic Helmet (Alderaan)";
+		hiddenSelectionsTextures[]=
+		{
+			QPATHTOF(data\rep_trooper\headgear\alderaan_helmet_co.paa)
+		};
+	};
+	class TOR_RT_Helmet_Alderaan_NCO: TOR_RT_Helmet
+	{
+		displayName = "[TOR] Republic NCO Helmet (Alderaan)";
+		hiddenSelectionsTextures[]=
+		{
+			QPATHTOF(data\rep_trooper\headgear\alderaan_nco_helmet_co.paa)
+		};
+	};
 	class TOR_RT_Helmet_Havoc: TOR_RT_Helmet
 	{
 		displayName = "[TOR] Republic Helmet (Havoc)";
 		hiddenSelectionsTextures[]=
 		{
-			QPATHTOF(data\rep_trooper\headgear\havoc_trooper_helmet_co.paa)
+			QPATHTOF(data\rep_trooper\headgear\havoc_helmet_co.paa)
 		};
 	};
 	class TOR_RT_Helmet_Havoc_NCO: TOR_RT_Helmet
@@ -61,20 +77,20 @@ class CfgWeapons
 			QPATHTOF(data\rep_trooper\headgear\havoc_nco_helmet_co.paa)
 		};
 	};
-	class TOR_RT_Helmet_Alderaan: TOR_RT_Helmet
+	class TOR_RT_Helmet_Ranger: TOR_RT_Helmet
 	{
-		displayName = "[TOR] Republic Helmet (Alderaan)";
+		displayName = "[TOR] Republic Helmet (Ranger)";
 		hiddenSelectionsTextures[]=
 		{
-			QPATHTOF(data\rep_trooper\headgear\alderaan_trooper_helmet_co.paa)
+			QPATHTOF(data\rep_trooper\headgear\ranger_helmet_co.paa)
 		};
 	};
-	class TOR_RT_Helmet_Alderaan_NCO: TOR_RT_Helmet
+	class TOR_RT_Helmet_Shadow: TOR_RT_Helmet
 	{
-		displayName = "[TOR] Republic NCO Helmet (Alderaan)";
+		displayName = "[TOR] Republic Helmet (Shadow)";
 		hiddenSelectionsTextures[]=
 		{
-			QPATHTOF(data\rep_trooper\headgear\alderaan_nco_helmet_co.paa)
+			QPATHTOF(data\rep_trooper\headgear\shadow_helmet_co.paa)
 		};
 	};
 
