@@ -1,3 +1,3 @@
 # Old Republic Armory
 
-#### Mod project aiming to bring Star Wars' Old Republic era to Arma 3
+#### Mod project aiming to bring the Old Republic era to Arma 3

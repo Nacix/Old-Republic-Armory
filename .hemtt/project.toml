@@ -1,4 +1,4 @@
-name = "Old Republic Armory"
+name = "Old Republic Project"
 prefix = "tor"
 mainprefix = "x"
 
@@ -12,6 +12,6 @@ include = [
     "*.paa",
     "mod.cpp",
     "LICENSE",
-    "modder_readme.txt",
+    "MODDER_README.txt",
     "README.md",
 ]

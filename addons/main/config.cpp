@@ -18,11 +18,11 @@ class CfgMods
 {
     class PREFIX 
     {
-        name = "Old Republic Armory";
+        name = "Old Republic Project";
         picture = "";
         hidePicture = "true";
         hideName = "true";
-        actionName = "GitHub";
+        actionName = "Discord";
         action = CSTRING(URL);
         description = "Armor from the era of the Old Republic";
     };

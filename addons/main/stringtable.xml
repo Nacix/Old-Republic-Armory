@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="Old Republic Armory">
+<Project name="Old Republic Project">
     <Package name="Main">
         <Key ID="STR_TOR_Main_URL">
-            <English>https://github.com/Nacix/Old-Republic-Armory</English>
+            <English>https://discord.gg/XmwwbxUqjC</English>
         </Key>
     </Package>
 </Project>
