@@ -19,6 +19,10 @@ class CfgPatches
         };
         weapons[]=
         {
+            "TOR_RT_Backpack_RTO",
+            "TOR_RT_Backpack_RTO_alt",
+            "TOR_RT_Backpack_RTO_Alderaan",
+            "TOR_RT_Backpack_RTO_Havoc",
             "TOR_RT_Helmet",
             "TOR_RT_Helmet_Alderaan",
             "TOR_RT_Helmet_Alderaan_NCO",
@@ -41,3 +45,4 @@ class CfgPatches
 };
 
 #include "CfgWeapons.hpp"
+#include "CfgVehicles.hpp"
